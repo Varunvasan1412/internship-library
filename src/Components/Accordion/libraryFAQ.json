@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How do I get a library card?",
+    "answer": "To get a library card, visit the library's front desk with a valid ID and proof of address. You can also apply online through our website."
+  },
+  {
+    "question": "What are the library’s opening hours?",
+    "answer": "The library is open Monday to Friday from 9:00 AM to 7:00 PM and on Saturday from 10:00 AM to 5:00 PM. We are closed on Sundays and public holidays."
+  },
+  {
+    "question": "How can I renew my borrowed books?",
+    "answer": "You can renew your books online through your account, by calling the library, or by visiting the front desk. Renewals may be limited if there is a hold on the item."
+  },
+  {
+    "question": "Are there any late fees for overdue books?",
+    "answer": "Yes, overdue books incur a fee of $0.25 per day per item. Fees can be paid online or at the library."
+  },
+  {
+    "question": "Can I reserve a book that is currently checked out?",
+    "answer": "Yes, you can place a hold on checked-out books through your online account or by asking a librarian. You will be notified when the book becomes available."
+  }
+]

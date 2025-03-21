@@ -1,15 +1,15 @@
 import { useNavigate } from "react-router-dom";
 
-const SignInButton = () => {
+const SignOutButton = () => {
   const navigate = useNavigate();
   return (
     <button
-      onClick={() => navigate("/forms")}
+      onClick={() => navigate("/signout")}
       className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
-      Sign In
+      Sign Out
     </button>
   );
 };
-export default SignInButton;
-  
+
+export default SignOutButton;
