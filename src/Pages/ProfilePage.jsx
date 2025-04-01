@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
-const ResultPage = () => {
+const ProfilePage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const formData = location.state?.formData || {};
@@ -49,9 +49,7 @@ const ResultPage = () => {
         )}
       </div>
 
-      <h2 className="text-2xl font-bold mb-4 text-center">
-        Form Submission Result
-      </h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Your Profile </h2>
 
       <div className="border border-gray-300 p-4 rounded-md">
         <p className="mb-2">
@@ -91,7 +89,7 @@ const ResultPage = () => {
             Download Image
           </button>
         </div>
-      )}``
+      )}
 
       {/* Back Button */}
       <div className="mt-4 flex justify-center">
@@ -106,4 +104,4 @@ const ResultPage = () => {
   );
 };
 
-export default ResultPage;
+export default ProfilePage;

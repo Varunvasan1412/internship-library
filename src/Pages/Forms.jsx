@@ -48,15 +48,14 @@ const Forms = () => {
     const imageFile = data.imageUpload?.[0];
     if (imageFile) {
       const imageUrl = URL.createObjectURL(imageFile);
-      data.imageUrl = imageUrl;  // ✅ Assign before setFormData
+      data.imageUrl = imageUrl; // ✅ Assign before setFormData
       setValue("imageUrl", imageUrl);
     }
-  
+
     console.log("Form data before confirmation:", data);
     setFormData(data);
     setShowConfirmation(true);
   };
-  
 
   const handleConfirmSubmit = () => {
     console.log("Confirmed submission with data:", formData);
@@ -70,20 +69,17 @@ const Forms = () => {
   };
 
   const handleCloseSuccess = () => {
-
-  
     if (formData.imageUrl) {
       localStorage.setItem("imageUrl", formData.imageUrl);
     }
-  
-    console.log("Navigating to result page with data:", formData);
+
+    console.log("Navigating to Profile page with data:", formData);
     setShowSuccess(false);
-    navigate("/result", { state: { formData } });
+    navigate("/profile", { state: { formData } });
   };
-  
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className="mt-8 max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold mb-4 text-center">Registration Form</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         {/* First Name */}

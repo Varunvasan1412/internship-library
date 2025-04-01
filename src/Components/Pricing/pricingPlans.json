@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Basic",
+    "description": "Perfect for home libraries. Built specifically for personal collections — FREE!",
+    "price": "0",
+    "features": [
+      "Manage your personal libraries for FREE",
+      "Catalog multiple media types",
+      "Scan and import items via ISBN/UPC",
+      "Manually enter, tag, and group items",
+      "Automatic meta data",
+      "Export your data at anytime",
+      "Track which items you've completed"
+    ]
+  },
+  {
+    "title": "Pro",
+    "description": "Upgraded for educators, organizations, power users & commercial use.",
+    "price": "19.99",
+    "features": [
+      "Everything in Basic plus:",
+      "Lending and holds management",
+      "Patron management",
+      "Barcode management",
+      "Interactive published site",
+      "Generate reports",
+      "Multi-user management (extra fee)"
+    ]
+  },
+  {
+    "title": "Ultimate",
+    "description": "Designed for schools & districts, organizations & libraries. Great for multi-account management.",
+    "price": "29.99",
+    "features": [
+      "Everything in Basic and Pro plus:",
+      "50 manager licenses (great for classrooms)",
+      "Centralized management dashboard",
+      "SSO integration (Google, Classlink)",
+      "Custom imports",
+      "Invoicing / POs",
+      "Priority support"
+    ]
+  }
+]
